@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/kbui-portfolio/static/css/main.177df4c2.css",
+    "main.js": "/kbui-portfolio/static/js/main.d507c6f1.js",
+    "static/media/contact.jpg": "/kbui-portfolio/static/media/contact.045414e59c1d27e69a7a.jpg",
+    "static/media/weather.png": "/kbui-portfolio/static/media/weather.30e39d834af5976fd601.png",
+    "static/media/mysql.jpg": "/kbui-portfolio/static/media/mysql.e1595fa4556259b78529.jpg",
+    "static/media/jquery.png": "/kbui-portfolio/static/media/jquery.66108f53b218c72ed50a.png",
+    "static/media/social-network-api.jpg": "/kbui-portfolio/static/media/social-network-api.c8e0cf0aeae1911ec0a1.jpg",
+    "static/media/give-manna.jpg": "/kbui-portfolio/static/media/give-manna.ab7fb7dc263b25135a16.jpg",
+    "static/media/mongodb.png": "/kbui-portfolio/static/media/mongodb.b8c08730d530013deb5b.png",
+    "static/media/bootstrap.png": "/kbui-portfolio/static/media/bootstrap.ff4ba441ec3324145fde.png",
+    "static/media/insomnia.png": "/kbui-portfolio/static/media/insomnia.3f6322b89a0e3623e24d.png",
+    "static/media/sequelize.png": "/kbui-portfolio/static/media/sequelize.d98b2554b49e415e0c08.png",
+    "static/media/react.png": "/kbui-portfolio/static/media/react.5929148ed809850d82fb.png",
+    "index.html": "/kbui-portfolio/index.html",
+    "main.177df4c2.css.map": "/kbui-portfolio/static/css/main.177df4c2.css.map",
+    "main.d507c6f1.js.map": "/kbui-portfolio/static/js/main.d507c6f1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.177df4c2.css",
+    "static/js/main.d507c6f1.js"
+  ]
+}
