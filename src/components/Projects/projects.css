@@ -1,0 +1,113 @@
+.project-page {
+  text-align: center;
+  line-height: 20px;
+  margin-bottom: 200px;
+}
+.project-page h2 {
+font-size: 35px;
+}
+.projects {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 5px;
+padding-top: 50px;
+}
+.project-card {
+  position: relative;
+  max-width: 220px;
+  height: 110px;
+  background: rgba(255, 255, 255, 0.958);
+  margin: 30px 20px;
+  padding: 20px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 15px 45px var(--dark-grey);
+  transition: 0.65s ease-in-out;
+}
+.project-card:hover {
+  height: 400px;
+}
+.project-img {
+  position: relative;
+  top: -50px;
+}
+.project-img img {
+  width: 180px;
+  height: 150px;
+  border-radius: 5px;
+  box-shadow: 0 15px 45px var(--transparent-grey);
+}
+.project-content {
+  color: var(--black);
+  padding: 0 10px;
+  visibility: hidden;
+  transition: 5s ease-in;
+}
+.project-links {
+  text-align: right;
+  padding: 0 10px;
+  visibility: hidden;
+  transition: 5s ease-in;
+}
+.project-links a {
+  padding: 0 10px;
+  font-size: 20px;
+  color: var(--black);
+  transition: .3s;
+}
+.project-links a:hover {
+  font-size: 25px;
+  filter: drop-shadow(0 0 5px var(--coral));
+}
+.project-card:hover .project-content,
+.project-card:hover .project-links {
+  visibility: visible;
+  transition-delay: 0.4s;
+}
+.project-desc h4 {
+  margin: 0;
+  padding-bottom: 7px;
+  font-size: 20px;
+  font-weight: 800;
+}
+.project-desc p {
+  margin: 0;
+}
+@media screen and (min-width: 855px) {
+  .project-page {
+margin-left: 50px;
+margin-right: 50px;
+  }
+  .project-page h2{
+    font-size: 45px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .project-page {
+margin-left: 150px;
+margin-right: 150px;
+  }
+  .project-card{
+    margin: 45px;
+    width: 200px;
+  }
+}
+@media screen and (min-width: 1750px) {
+  .project-page {
+margin-left: 200px;
+margin-right: 200px;
+  }
+}
+@media screen and (min-width: 1950px) {
+  .project-page {
+margin-left: 350px;
+margin-right: 350px;
+  }
+  .project-card{
+    margin: 55px;
+  }
+}

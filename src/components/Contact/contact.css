@@ -1,0 +1,119 @@
+.contact-page {
+  text-align: center;
+  background: url(../../assets/img/background/contact.jpg) no-repeat center;
+  padding: 30px 0 230px 0;
+  background-size: cover;
+}
+.contact-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-methods {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.contact-icon {
+  margin-bottom: 5px;
+  font-size: 25px;
+  color: var(--black);
+  padding: 12px;
+  border-radius: 50%;
+  background-color: var(--white);
+  box-shadow: 0 5px 45px var(--transparent-grey);
+}
+.contact-method {
+  width: 170px;
+  height: 150px;
+
+  padding: 20px;
+  margin: 15px;
+
+  /* border-radius: 4px; */
+  /* background: var(--black); */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: var(--transparent-black);
+  box-shadow: 0 5px 45px var(--transparent-grey);
+}
+
+.contact-method a {
+  font-size: 12px;
+  transition: 0.5s ease;
+}
+.contact-method a:hover {
+  font-size: 14px;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff;
+}
+.contact-method p {
+  color: var(--coral);
+  text-shadow: 2px 5px 10px var(--dark-grey);
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0;
+}
+.contact-form {
+  background: var(--transparent-black);
+  box-shadow: 0 5px 45px var(--transparent-grey);
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  margin: 15px 2px;
+}
+.contact-form h5 {
+  color: var(--coral);
+  text-shadow: 2px 5px 10px var(--dark-grey);
+  font-size: 30px;
+  margin: 20px;
+}
+.contact-form input,
+.contact-form textarea {
+  color: var(--white);
+  margin: 15px 0;
+  box-sizing: border-box;
+  background: var(--black);
+  border-color: var(--coral);
+  border-style: none none solid none;
+  outline: none;
+  transition: 0.5s;
+}
+.contact-form button {
+  position: relative;
+  border: 1px solid var(--transparent-white);
+  font-size: 17px;
+  padding: 8px 0;
+  margin: 50px 60px 30px 60px;
+  box-shadow: 0 5px 45px var(--transparent-grey);
+  transition: 0.3s;
+  overflow: hidden;
+}
+.contact-form button:hover{
+font-size: 19px;
+}
+.contact-form button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50px;
+  height: 100%;
+  background: var(--transparent-white);
+  transform: skewX(45deg) translateX(-70px);
+  transition: 0.5s;
+}
+.contact-form button:hover::before {
+  transform: skewX(45deg) translateX(250px);
+}
+
+@media screen and (min-width: 870px) {
+  .contact-methods {
+    display: block;
+    margin: 15px;
+  }
+}
