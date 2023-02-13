@@ -11,7 +11,7 @@ problem solving.
 <img src="./src/assets/img/Screenshot/kb.png" alt="screenshot" title="screenshot">
 <br>
 <br>
-Link: https://khanhpbui.github.io/kbui-portfolio/
+Link: https://khanhpbui.github.io/portfolio/
 
 ## Table Of Contents 
  - [Technical Skills](#technical-skills)
