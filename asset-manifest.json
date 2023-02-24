@@ -1,24 +1,28 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.708391e7.css",
-    "main.js": "/portfolio/static/js/main.ad683a12.js",
+    "main.css": "/portfolio/static/css/main.0e083490.css",
+    "main.js": "/portfolio/static/js/main.0f2a7455.js",
+    "static/media/book.jpg": "/portfolio/static/media/book.41ef1cc7d02601c8f215.jpg",
+    "static/media/weather.jpg": "/portfolio/static/media/weather.560933a518b00c0a0dcd.jpg",
     "static/media/contact.jpg": "/portfolio/static/media/contact.045414e59c1d27e69a7a.jpg",
-    "static/media/weather.png": "/portfolio/static/media/weather.30e39d834af5976fd601.png",
+    "static/media/name.gif": "/portfolio/static/media/name.b97a29ee3209c99ef109.gif",
+    "static/media/artbot.png": "/portfolio/static/media/artbot.11ca97c5faccfc368a62.png",
     "static/media/mysql.jpg": "/portfolio/static/media/mysql.e1595fa4556259b78529.jpg",
     "static/media/jquery.png": "/portfolio/static/media/jquery.66108f53b218c72ed50a.png",
     "static/media/social-network-api.jpg": "/portfolio/static/media/social-network-api.c8e0cf0aeae1911ec0a1.jpg",
     "static/media/give-manna.jpg": "/portfolio/static/media/give-manna.ab7fb7dc263b25135a16.jpg",
     "static/media/mongodb.png": "/portfolio/static/media/mongodb.b8c08730d530013deb5b.png",
+    "static/media/apollo.png": "/portfolio/static/media/apollo.e6983c173c3a57141df2.png",
     "static/media/bootstrap.png": "/portfolio/static/media/bootstrap.ff4ba441ec3324145fde.png",
     "static/media/insomnia.png": "/portfolio/static/media/insomnia.3f6322b89a0e3623e24d.png",
     "static/media/sequelize.png": "/portfolio/static/media/sequelize.d98b2554b49e415e0c08.png",
     "static/media/react.png": "/portfolio/static/media/react.5929148ed809850d82fb.png",
     "index.html": "/portfolio/index.html",
-    "main.708391e7.css.map": "/portfolio/static/css/main.708391e7.css.map",
-    "main.ad683a12.js.map": "/portfolio/static/js/main.ad683a12.js.map"
+    "main.0e083490.css.map": "/portfolio/static/css/main.0e083490.css.map",
+    "main.0f2a7455.js.map": "/portfolio/static/js/main.0f2a7455.js.map"
   },
   "entrypoints": [
-    "static/css/main.708391e7.css",
-    "static/js/main.ad683a12.js"
+    "static/css/main.0e083490.css",
+    "static/js/main.0f2a7455.js"
   ]
 }
