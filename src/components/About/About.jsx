@@ -7,7 +7,7 @@ const About = () => {
     <div id="about-section" className="intro">
       <h5>Hello there, my name is</h5>
       <img className="my-name" src={myName} alt="Khanh Bui"/>
-      <p className="my-title">A Software Developer</p>
+      <p className="my-title">A Software Engineer</p>
       <img src="https://picsum.photos/seed/picsum/200/300?grayscale" alt="" />
       <p>
         Creative and enthusiastic developer with prior experience in customer
