@@ -1,13 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./about.css";
-
+import myName from "../../assets/gif/name.gif"
 const About = () => {
   return (
     <div id="about-section" className="intro">
       <h5>Hello there, my name is</h5>
-      <h1 className="my-name">KHANH BUI</h1>
-      <p>A Software Developer</p>
+      <img className="my-name" src={myName} alt="Khanh Bui"/>
+      <p className="my-title">A Software Developer</p>
       <img src="https://picsum.photos/seed/picsum/200/300?grayscale" alt="" />
       <p>
         Creative and enthusiastic developer with prior experience in customer

@@ -11,9 +11,6 @@ function App() {
     <BrowserRouter>
       <div>
         <Header />
-        {/* <div className="content">
-
-        </div> */}
         <About />
         <Resume />
         <Projects />

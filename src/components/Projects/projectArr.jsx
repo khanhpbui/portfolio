@@ -1,24 +1,26 @@
 import giveManna from '../../assets/img/projectImg/give-manna.jpg';
 import socialNetworkApi from '../../assets/img/projectImg/social-network-api.jpg';
-import weather from '../../assets/img/projectImg/weather.png';
+import weather from '../../assets/img/projectImg/weather.jpg';
+import bookFinder from '../../assets/img/projectImg/book.jpg';
+import artbot from '../../assets/img/projectImg/artbot.png';
 
 
 const projectArr = [
     {
       id: 1,
-      image: "https://picsum.photos/seed/picsum/200/200",
-      title: "HEllo",
-      repositoryLink: "",
-      deployedLink: "",
-      description: "Lorem ipsum dolor sitpsa commodi, recusandae totam laborum necessitatibus voluptatem animi officiis consectetur ex perspiciatis sint molestiae?",
+      image: artbot,
+      title: "Artbot AI",
+      repositoryLink: "https://github.com/Thedanbrown/artbot-ai.git",
+      deployedLink: "https://artbotai.herokuapp.com/",
+      description: "A MERN application utilizing OpenAI API, Cloudinary API to generate unique, high-quality images. JSON Web Tokens was used for user authentication.",
     },
     {
       id: 2,
-      image: "https://picsum.photos/seed/picsum/200/200",
-      title: "HEllo",
-      repositoryLink: "",
-      deployedLink: "",
-      description: "Lorem ipsum dolor sit amet elit. Consequun totam laborum necessitatibus voluptatem animi officiis consectetur ex perspiciatis sint molestiae?",
+      image: bookFinder,
+      title: "Book Finder",
+      repositoryLink: "https://github.com/khanhpbui/book-finder.git",
+      deployedLink: "https://google-book-search.herokuapp.com/",
+      description: "An application was built using MERN stack, and Google Book API. JSON Web Tokens was used for user authentication. User will be able to sign up for an account, login, search for books, and save book searches to the back end.",
     },
     {
       id: 3,

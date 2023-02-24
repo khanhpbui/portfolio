@@ -18,7 +18,7 @@
   color: var(--coral);
 }
 .skill {
-  margin: 45px 25px;
+  margin: 20px 25px;
   font-size: 15px;
   font-weight: 800;
   background-image: linear-gradient(
@@ -35,7 +35,7 @@
 .my-resume {
   position: relative;
   border: 1px solid var(--transparent-white);
-  /* margin: 0 30px; */
+margin-top: 40px;
   padding: 5px;
   width: 270px;
   box-shadow: 0 5px 45px var(--transparent-grey);
@@ -75,7 +75,12 @@
   background: white;
   padding: 3px;
 }
-
+#apollo,
+#graphql {
+  background: white;
+  padding: 3px;
+  border-radius: 50%;
+}
 #javascript,
 #jquery,
 #sequelize {
@@ -87,7 +92,9 @@
 #npm {
   width: 55px;
 }
-
+/* .skill-resume {
+  display: block;
+} */
 @media screen and (min-width: 485px) {
   .skills {
     padding: 55px;
@@ -98,13 +105,22 @@
 }
 @media screen and (min-width: 1250px) {
   .resume-page {
-    padding: 0 250px 150px 250px;
+    padding: 0 50px 150px 50px;
     margin: 70px 0;
   }
   .skill {
     font-size: 20px;
     margin-top: 80px;
     margin-bottom: 80px;
+  }
+  .skill-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .skill-resume {
+    margin-left: 300px;
+    width: 600px;
   }
 }
 @media screen and (min-width: 1625px) {

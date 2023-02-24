@@ -16,6 +16,8 @@ import node from "../../assets/img/techLogo/node.png";
 import github from "../../assets/img/techLogo/github.png";
 import npm from "../../assets/img/techLogo/npm.png";
 import insomnia from "../../assets/img/techLogo/insomnia.png";
+import apollo from "../../assets/img/techLogo/apollo.png";
+import graphql from "../../assets/img/techLogo/graphql.png";
 
 const techLogo = [
   {
@@ -94,19 +96,29 @@ const techLogo = [
     image: node,
     techName: "node",
   },
-
   {
     id: 16,
+    image: apollo,
+    techName: "apollo",
+  },
+  {
+    id: 17,
+    image: graphql,
+    techName: "graphql",
+  },
+
+  {
+    id: 18,
     image: github,
     techName: "git",
   },
   {
-    id: 17,
+    id: 19,
     image: npm,
     techName: "npm",
   },
   {
-    id: 18,
+    id: 20,
     image: insomnia,
     techName: "insomnia",
   },
