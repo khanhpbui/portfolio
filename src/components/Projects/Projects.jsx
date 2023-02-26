@@ -21,10 +21,10 @@ const Projects = () => {
               </div>
             </div>
             <div className="project-links">
-              <a href={project.repositoryLink}>
+              <a href={project.repositoryLink} target="_blank" rel="noreferrer">
                 <AiOutlineGithub />
               </a>
-              <a href={project.deployedLink}>
+              <a href={project.deployedLink} target="_blank" rel="noreferrer">
                 <VscRocket />
               </a>
             </div>

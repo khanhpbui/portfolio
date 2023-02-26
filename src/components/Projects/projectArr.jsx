@@ -1,7 +1,7 @@
-import giveManna from '../../assets/img/projectImg/give-manna.jpg';
+import giveManna from '../../assets/img/projectImg/give-manna.png';
 import socialNetworkApi from '../../assets/img/projectImg/social-network-api.jpg';
-import weather from '../../assets/img/projectImg/weather.jpg';
-import bookFinder from '../../assets/img/projectImg/book.jpg';
+import weather from '../../assets/img/projectImg/weather.png';
+import bookFinder from '../../assets/img/projectImg/book.png';
 import artbot from '../../assets/img/projectImg/artbot.png';
 
 
