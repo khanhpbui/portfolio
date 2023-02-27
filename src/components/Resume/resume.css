@@ -35,7 +35,7 @@
 .my-resume {
   position: relative;
   border: 1px solid var(--transparent-white);
-margin-top: 40px;
+margin-top: 60px;
   padding: 5px;
   width: 270px;
   box-shadow: 0 5px 45px var(--transparent-grey);
@@ -58,7 +58,7 @@ margin-top: 40px;
   transition: 0.5s;
 }
 .my-resume:hover::before {
-  transform: skewX(45deg) translateX(350px);
+  transform: skewX(45deg) translateX(370px);
 }
 .logo {
   width: 30px;

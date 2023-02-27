@@ -17,59 +17,51 @@ padding-top: 50px;
 }
 .project-card {
   position: relative;
-  max-width: 220px;
-  height: 110px;
-  background: rgba(255, 255, 255, 0.815);
+  max-width: 270px;
+  height: 350px;
+  background: transparent;
+  border: solid 1px var(--transparent-grey);
   margin: 30px 20px;
   padding: 20px 10px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  box-shadow: 0 15px 45px var(--dark-grey);
-  transition: 0.65s ease-in-out;
+  box-shadow: 0 15px 45px var(--transparent-grey);
 }
-.project-card:hover {
-  height: 400px;
-}
+
 .project-img {
   position: relative;
   top: -50px;
 }
 .project-img img {
-  width: 180px;
-  height: 150px;
-  border-radius: 5px;
-  box-shadow: 0 15px 45px var(--transparent-grey);
+  width: 200px;
+  height: 180px;
 }
 .project-content {
-  color: var(--black);
+  position: relative;
+  color: var(--white);
   padding: 0 10px;
-  visibility: hidden;
-  transition: 5s ease-in;
+  top: -15px;
 }
 .project-links {
   text-align: right;
-  padding: 0 10px;
-  visibility: hidden;
+  padding: 15px;
   transition: 5s ease-in;
+  display: inline-flex;
+  justify-content: space-between;
 }
 .project-links a {
   padding: 0 10px;
   font-size: 20px;
-  color: var(--black);
+  color: var(--white);
   transition: .3s;
 }
 .project-links a:hover {
   font-size: 25px;
-  filter: drop-shadow(0 0 5px var(--coral));
-}
-.project-card:hover .project-content,
-.project-card:hover .project-links {
-  visibility: visible;
-  transition-delay: 0.4s;
+  filter: drop-shadow(0 0 7px var(--coral));
 }
 .project-desc h4 {
   margin: 0;
+  color: var(--coral);
   padding-bottom: 7px;
   font-size: 20px;
   font-weight: 800;
@@ -91,10 +83,7 @@ margin-right: 50px;
 margin-left: 150px;
 margin-right: 150px;
   }
-  .project-card{
-    margin: 45px;
-    width: 200px;
-  }
+
 }
 @media screen and (min-width: 1750px) {
   .project-page {

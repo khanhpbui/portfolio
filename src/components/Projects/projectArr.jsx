@@ -1,8 +1,9 @@
 import giveManna from '../../assets/img/projectImg/give-manna.png';
-import socialNetworkApi from '../../assets/img/projectImg/social-network-api.jpg';
+import socialNetworkApi from '../../assets/img/projectImg/social-network-api.png';
 import weather from '../../assets/img/projectImg/weather.png';
 import bookFinder from '../../assets/img/projectImg/book.png';
 import artbot from '../../assets/img/projectImg/artbot.png';
+import teamProfile from '../../assets/img/projectImg/team-profile.png';
 
 
 const projectArr = [
@@ -12,7 +13,7 @@ const projectArr = [
       title: "Artbot AI",
       repositoryLink: "https://github.com/Thedanbrown/artbot-ai.git",
       deployedLink: "https://artbotai.herokuapp.com/",
-      description: "A MERN application utilizing OpenAI API, Cloudinary API to generate unique, high-quality images. JSON Web Tokens was used for user authentication.",
+      description: "A MERN-stack application utilizing OpenAI API, Cloudinary API, and JWT to generate and store unique AI created images.",
     },
     {
       id: 2,
@@ -20,7 +21,7 @@ const projectArr = [
       title: "Book Finder",
       repositoryLink: "https://github.com/khanhpbui/book-finder.git",
       deployedLink: "https://google-book-search.herokuapp.com/",
-      description: "An application was built using MERN stack, and Google Book API. JSON Web Tokens was used for user authentication. User will be able to sign up for an account, login, search for books, and save book searches to the back end.",
+      description: "An interactive book search application built using MERN-stack, Google Book API, and JWT for user authentication.",
     },
     {
       id: 3,
@@ -36,7 +37,7 @@ const projectArr = [
       title: "Social Network API",
       repositoryLink: "https://github.com/khanhpbui/social-network-api.git",
       deployedLink: "https://drive.google.com/file/d/1defoxPiyOZAgM3VugRPqkJu-hIMPrhHS/view",
-      description: "A back-end API for a social network application where users can demonstrate the CRUD capabilities utilizing MongoDB, Mongoose, Express.js",
+      description: "An API for supporting a social network application where users can demonstrate the CRUD capabilities utilizing MongoDB, Mongoose, Express.js",
     },
     {
       id: 5,
@@ -48,11 +49,11 @@ const projectArr = [
     },
     {
       id: 6,
-      image: "https://picsum.photos/seed/picsum/200/200",
-      title: "HEllo",
-      repositoryLink: "",
-      deployedLink: "",
-      description: "Lorem ipsum dolor sit amet consectetur, animi officiis consectetur ex perspiciatis sint molestiae, possimus in reiciendis doloremque, placeat dicta? Dolores?",
+      image: teamProfile,
+      title: "Team Profile Generator",
+      repositoryLink: "https://github.com/khanhpbui/team-profile-generator.git",
+      deployedLink: "https://drive.google.com/file/d/18Tt-qrgQEsX21YoGwewQhlBbbI9qlcIk/view",
+      description: "A CLI-based UI tool for employee managenent created with HTML, CSS, JavaScript, Bootstrap, jQuery, Node.js, and tested with Jest",
     },
   ]
 
