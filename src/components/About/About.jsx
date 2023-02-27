@@ -14,7 +14,7 @@ const About = () => {
         service and sales. Team work makes the dream work, so collaborating to
         drive the team's success is a must. Developed & honed skills with a
         Full-Stack Web Development Certificate from Georgia Institute of
-        Technology. Determined, self-driven and enjoy the challenges of complex
+        Technology. Determined, self-driven and enjoys the challenges of complex
         problem solving.
       </p>
       <div className="connect-link">

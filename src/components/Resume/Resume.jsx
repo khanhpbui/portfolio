@@ -43,7 +43,7 @@ const Resume = () => {
             className="my-resume-link"
             href="https://docs.google.com/document/d/1P6negCQaE3iD2tDpht9PSk_Bha1ibmmn6VKRj5Rudfk/edit?usp=sharing"
           >
-            Check Out My Resume
+            View My Resume
           </a>
         </div>
     </div>
