@@ -1,5 +1,5 @@
 .intro {
-  margin-bottom: 40px;;
+  margin-bottom: 40px;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -8,8 +8,12 @@
 .my-name {
 width: 300px;
 }
+.my-pic {
+  width: 250px;
+}
 .intro h5 {
   margin-bottom: 10px;
+  margin-top: 10px;
 }
 .intro .my-title {
   margin-top: 0;
@@ -57,6 +61,6 @@ width: 300px;
     width: 400px;
     }
     .intro p {
-font-size: 20px;
+font-size: 17px;
     }
 }

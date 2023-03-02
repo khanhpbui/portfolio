@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
 import { CgMenu } from "react-icons/cg";
 import { MdClose } from "react-icons/md";
 // import { FaFileDownload } from "react-icons/fa";
@@ -16,7 +15,10 @@ const Navigation = () => {
             <a href="#about-section">About</a>
           </li>
           <li>
-            <a href="#resume-section">Resume</a>
+            <a href="#skill-section">Skills</a>
+          </li>
+          <li>
+            <a href="#resume">Resume</a>
           </li>
           <li>
             <a href="#project-section">Projects</a>
@@ -24,7 +26,6 @@ const Navigation = () => {
           <li>
             <a href="#contact-section">Contact</a>
           </li>
-
         </ul>
       </div>
 
@@ -42,16 +43,29 @@ const Navigation = () => {
             />
             <ul className="navbar-sm-screen-links">
               <li>
-                <Link onClick={() => setToggleNav(false)} to="/">About</Link>
+                <a href="#about-section" onClick={() => setToggleNav(false)}>
+                  About
+                </a>
               </li>
               <li>
-                <Link onClick={() => setToggleNav(false)} to="/projects">Projects</Link>
+                <a href="#skill-section" onClick={() => setToggleNav(false)}>
+                  Skills
+                </a>
               </li>
               <li>
-                <Link onClick={() => setToggleNav(false)} to="/contact">Contact</Link>
+                <a href="#resume" onClick={() => setToggleNav(false)}>
+                  Resume
+                </a>
               </li>
               <li>
-                <Link onClick={() => setToggleNav(false)} to="/resume">Resume</Link>
+                <a href="#project-section" onClick={() => setToggleNav(false)}>
+                  Projects
+                </a>
+              </li>
+              <li>
+                <a href="#contact-section" onClick={() => setToggleNav(false)}>
+                  Contact
+                </a>
               </li>
             </ul>
           </div>

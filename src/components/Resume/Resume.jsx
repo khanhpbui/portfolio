@@ -5,7 +5,7 @@ import { RxDotFilled } from "react-icons/rx";
 
 const Resume = () => {
   return (
-    <div id="resume-section" className="resume-page">
+    <div id="skill-section" className="resume-page">
       <div className="skill-content">
       <h2>Skills</h2>
       <div className="skill-resume">
@@ -38,7 +38,7 @@ const Resume = () => {
       </div>
       </div>
       
-      <div className="my-resume">
+      <div id="resume" className="my-resume">
           <a
             className="my-resume-link"
             href="https://docs.google.com/document/d/1P6negCQaE3iD2tDpht9PSk_Bha1ibmmn6VKRj5Rudfk/edit?usp=sharing"

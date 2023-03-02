@@ -20,14 +20,14 @@
 .skill {
   margin: 4px 25px;
   font-size: 15px;
-  font-weight: 800;
-  background-image: linear-gradient(
+  font-weight: 600;
+  /* background-image: linear-gradient(
     to right,
-    rgb(164, 146, 23) 20%,
+    rgb(221, 221, 218) 20%,
     var(--coral) 80%
   );
   color: transparent;
-  background-clip: text;
+  background-clip: text; */
 }
 .skill svg {
   color: var(--coral);

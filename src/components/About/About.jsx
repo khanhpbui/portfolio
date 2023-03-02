@@ -2,13 +2,15 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./about.css";
 import myName from "../../assets/gif/name.gif"
+import myPic from "../../assets/img/avatar/kb1.jpg"
+
 const About = () => {
   return (
     <div id="about-section" className="intro">
       <h5>Hello there, my name is</h5>
       <img className="my-name" src={myName} alt="Khanh Bui"/>
       <p className="my-title">A Software Engineer</p>
-      <img src="https://picsum.photos/seed/picsum/200/300?grayscale" alt="" />
+      <img className="my-pic" src={myPic} alt="Khanh Bui's avatar" />
       <p>
         Creative and enthusiastic developer with prior experience in customer
         service and sales. Team work makes the dream work, so collaborating to

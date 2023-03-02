@@ -6,7 +6,7 @@
   --white: #e2e2e2d8;
   --transparent-white: #e2e2e298;
   --grey: #6E7E85;
-  --coral: #f86f14;
+  --coral: #AF6E4D;
   --dark-grey: #484646;
   --transparent-grey: #484646a6;
 }
@@ -25,10 +25,11 @@ h5 {
   font-size: 18px;
 }
 h2 {
-  font-size: 45px;
+  font-size: 35px;
   color: white;
   text-shadow: 0 6px 45px var(--coral);
   margin: 50px 0;
+  line-height: 40px;
 }
 
 
