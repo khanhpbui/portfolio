@@ -13,7 +13,7 @@ const projectArr = [
       title: "Artbot AI",
       repositoryLink: "https://github.com/Thedanbrown/artbot-ai.git",
       deployedLink: "https://artbotai.herokuapp.com/",
-      description: "A MERN-stack application utilizing OpenAI API, Cloudinary API, and JWT to generate and store unique AI created images.",
+      description: "A MERN-stack application utilizing OpenAI API, Cloudinary API, GraphQL, and JWT to generate and store unique AI created images.",
     },
     {
       id: 2,
@@ -21,7 +21,7 @@ const projectArr = [
       title: "Book Finder",
       repositoryLink: "https://github.com/khanhpbui/book-finder.git",
       deployedLink: "https://google-book-search.herokuapp.com/",
-      description: "An interactive book search application built using MERN-stack, Google Book API, and JWT for user authentication.",
+      description: "An interactive book search application built using MERN-stack, Google Book API ,GraphQL, and JWT for user authentication.",
     },
     {
       id: 3,
