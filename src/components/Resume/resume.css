@@ -19,7 +19,7 @@
 }
 .skill {
   margin: 4px 25px;
-  font-size: 15px;
+  font-size: 12px;
   font-weight: 600;
   /* background-image: linear-gradient(
     to right,
@@ -102,6 +102,9 @@ margin-top: 60px;
   .resume-page {
     padding: 55px;
   }
+  .skill {
+    font-size: 18px;
+  }
 }
 @media screen and (min-width: 1250px) {
   .resume-page {
@@ -109,14 +112,14 @@ margin-top: 60px;
     margin: 70px 0;
   }
   .skill {
-    font-size: 20px;
+    font-size: 18px;
     margin-top: 80px;
     margin-bottom: 80px;
   }
 }
 @media screen and (min-width: 1625px) {
   .skill {
-    font-size: 25px;
+    font-size: 20px;
   }
   .resume-page {
     padding: 0 310px 250px 310px;
