@@ -21,7 +21,7 @@ const projectArr = [
       title: "Book Finder",
       repositoryLink: "https://github.com/khanhpbui/book-finder.git",
       deployedLink: "https://google-book-search.herokuapp.com/",
-      description: "An interactive book search application built using MERN-stack, Google Book API ,GraphQL, and JWT for user authentication.",
+      description: "An interactive book search application built using MERN-stack, Google Book API, GraphQL, and JWT for user authentication.",
     },
     {
       id: 3,
