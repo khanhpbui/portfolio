@@ -74,9 +74,6 @@ padding-top: 50px;
 margin-left: 50px;
 margin-right: 50px;
   }
-  .project-page h2{
-    font-size: 45px;
-  }
 }
 @media screen and (min-width: 1280px) {
   .project-page {
