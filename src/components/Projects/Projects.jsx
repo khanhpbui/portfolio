@@ -6,17 +6,21 @@ import "./projects.css";
 
 const Projects = () => {
   return (
-    <div id='project-section' className="project-page">
+    <div id="project-section" className="project-page">
       <h2>Check out my projects:</h2>
       <div className="projects">
         {projects.map((project) => (
           <div className="project-card" key={project.id}>
             <div className="project-img">
-              <img src={project.image} alt={project.title} />
+              <a href={project.deployedLink} target="_blank" rel="noreferrer">
+                <img src={project.image} alt={project.title} />
+              </a>
             </div>
             <div className="project-content">
               <div className="project-desc">
-                <h4>{project.title}</h4>
+                <a href={project.deployedLink} target="_blank" rel="noreferrer">
+                  <h4>{project.title}</h4>
+                </a>
                 <p>{project.description}</p>
               </div>
             </div>

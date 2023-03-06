@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "./about.css";
 import myName from "../../assets/gif/name.gif"
 import myPic from "../../assets/img/avatar/kb1.jpg"
@@ -20,9 +19,9 @@ const About = () => {
         problem solving.
       </p>
       <div className="connect-link">
-        <Link to="/contact">
+        <a href="#contact-section">
           Connect With Me <span>&#10230;</span>
-        </Link>
+        </a>
       </div>
     </div>
   );
