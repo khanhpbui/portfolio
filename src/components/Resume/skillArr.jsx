@@ -1,7 +1,6 @@
 import html from "../../assets/img/techLogo/html.png";
 import css from "../../assets/img/techLogo/css.png";
 import js from "../../assets/img/techLogo/js.png";
-import handlebarsjs from "../../assets/img/techLogo/handlebarsjs.png";
 import bootstrap from "../../assets/img/techLogo/bootstrap.png";
 import jquery from "../../assets/img/techLogo/jquery.png";
 import tailwind from "../../assets/img/techLogo/tailwind.png";
@@ -18,6 +17,7 @@ import npm from "../../assets/img/techLogo/npm.png";
 import insomnia from "../../assets/img/techLogo/insomnia.png";
 import apollo from "../../assets/img/techLogo/apollo.png";
 import graphql from "../../assets/img/techLogo/graphql.png";
+import ts from "../../assets/img/techLogo/ts.png";
 
 const techLogo = [
   {
@@ -37,8 +37,8 @@ const techLogo = [
   },
   {
     id: 4,
-    image: handlebarsjs,
-    techName: "handlebars",
+    image: ts,
+    techName: "typescript",
   },
   {
     id: 5,

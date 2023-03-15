@@ -12,7 +12,7 @@ const Resume = () => {
         {/*============== skills =============*/}
         <p className="skill">
           HTML5 <RxDotFilled /> CSS3 <RxDotFilled /> JavaScript <RxDotFilled />{" "}
-          Third Party APIs <RxDotFilled /> Handlebars.js <RxDotFilled /> jQuery{" "}
+          Third Party APIs <RxDotFilled /> TypeScript <RxDotFilled /> jQuery{" "}
           <RxDotFilled /> Bootstrap <RxDotFilled /> Tailwind <RxDotFilled />{" "}
           React <RxDotFilled /> MySQL <RxDotFilled /> Sequelize <RxDotFilled />{" "}
           NoSQL <RxDotFilled /> MongoDB <RxDotFilled /> Mongoose <RxDotFilled />{" "}

@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.256be4f4.css",
-    "main.js": "/portfolio/static/js/main.065e97df.js",
+    "main.js": "/portfolio/static/js/main.45cf0b58.js",
     "static/media/give-manna.png": "/portfolio/static/media/give-manna.b7a12159abce3e6ac058.png",
     "static/media/name.gif": "/portfolio/static/media/name.b97a29ee3209c99ef109.gif",
     "static/media/artbot.png": "/portfolio/static/media/artbot.11ca97c5faccfc368a62.png",
@@ -16,14 +16,15 @@
     "static/media/apollo.png": "/portfolio/static/media/apollo.e6983c173c3a57141df2.png",
     "static/media/bootstrap.png": "/portfolio/static/media/bootstrap.ff4ba441ec3324145fde.png",
     "static/media/insomnia.png": "/portfolio/static/media/insomnia.3f6322b89a0e3623e24d.png",
+    "static/media/ts.png": "/portfolio/static/media/ts.3ff4699f6112238fc1a5.png",
     "static/media/sequelize.png": "/portfolio/static/media/sequelize.d98b2554b49e415e0c08.png",
     "static/media/react.png": "/portfolio/static/media/react.5929148ed809850d82fb.png",
     "index.html": "/portfolio/index.html",
     "main.256be4f4.css.map": "/portfolio/static/css/main.256be4f4.css.map",
-    "main.065e97df.js.map": "/portfolio/static/js/main.065e97df.js.map"
+    "main.45cf0b58.js.map": "/portfolio/static/js/main.45cf0b58.js.map"
   },
   "entrypoints": [
     "static/css/main.256be4f4.css",
-    "static/js/main.065e97df.js"
+    "static/js/main.45cf0b58.js"
   ]
 }
