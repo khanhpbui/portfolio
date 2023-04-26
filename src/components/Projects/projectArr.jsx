@@ -3,6 +3,8 @@ import socialNetworkApi from '../../assets/img/projectImg/social-network-api.png
 import weather from '../../assets/img/projectImg/weather.png';
 import bookFinder from '../../assets/img/projectImg/book.png';
 import artbot from '../../assets/img/projectImg/artbot.png';
+import quiz from '../../assets/img/projectImg/quiz.png';
+import portfolio from '../../assets/img/projectImg/portfolio.png';
 import teamProfile from '../../assets/img/projectImg/team-profile.png';
 
 
@@ -41,12 +43,13 @@ const projectArr = [
     },
     {
       id: 5,
-      image: weather,
-      title: "Weather Forecast",
-      repositoryLink: "https://github.com/khanhpbui/weather-forcast.git",
-      deployedLink: "https://khanhpbui.github.io/weather-forcast/",
-      description: "A front-end application created to retrieve weather data for cities by making calls to third party API - OpenWeather.",
+      image: quiz,
+      title: "The Science Quiz",
+      repositoryLink: "https://github.com/khanhpbui/the-science-quiz.git",
+      deployedLink: "https://khanhpbui.github.io/the-science-quiz/",
+      description: "A science quiz made interactive through the use of HTML, CSS, and JavaScript.",
     },
+
     {
       id: 6,
       image: teamProfile,
@@ -54,6 +57,22 @@ const projectArr = [
       repositoryLink: "https://github.com/khanhpbui/team-profile-generator.git",
       deployedLink: "https://drive.google.com/file/d/18Tt-qrgQEsX21YoGwewQhlBbbI9qlcIk/view",
       description: "A CLI-based UI tool for employee managenent created with HTML, CSS, JavaScript, Bootstrap, jQuery, Node.js, and tested with Jest",
+    },
+    {
+      id: 7,
+      image: weather,
+      title: "Weather Forecast",
+      repositoryLink: "https://github.com/khanhpbui/weather-forcast.git",
+      deployedLink: "https://khanhpbui.github.io/weather-forcast/",
+      description: "A front-end application created to retrieve weather data for cities by making calls to third party API - OpenWeather.",
+    },
+    {
+      id: 8,
+      image: portfolio,
+      title: "My First Portfolio",
+      repositoryLink: "https://github.com/khanhpbui/my-portfolio.git",
+      deployedLink: "https://khanhpbui.github.io/my-portfolio/",
+      description: "My initial personal portfolio created using HTML, CSS, and JavaScript",
     },
   ]
 

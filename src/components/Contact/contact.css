@@ -1,119 +1,99 @@
-.contact-page {
-  text-align: center;
-  /* background: url(../../assets/img/background/contact.jpg) no-repeat center; */
-  padding: 30px 0 230px 0;
-  background-size: cover;
-}
-.contact-content {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-}
-
 .contact-methods {
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1rem auto;
 }
-.contact-icon {
-  margin-bottom: 5px;
-  font-size: 25px;
-  color: var(--black);
-  padding: 12px;
-  border-radius: 50%;
-  background-color: var(--white);
-  box-shadow: 0 5px 45px var(--transparent-grey);
-}
+
 .contact-method {
-  width: 170px;
-  height: 150px;
-
-  padding: 20px;
-  margin: 15px;
-
-  /* border-radius: 4px; */
-  /* background: var(--black); */
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: var(--transparent-black);
-  box-shadow: 0 5px 45px var(--transparent-grey);
+  border-radius: 20px;
+  box-shadow: 5px 5px 20px var(--trans-grey);
+  margin: 1rem;
+  padding: 0.5rem;
+  width: 18rem;
 }
 
-.contact-method a {
-  font-size: 12px;
-  transition: 0.5s ease;
+.contact-method.resume {
+  background-color: rgba(25, 154, 234, 0.175);
 }
-.contact-method a:hover {
-  font-size: 14px;
-  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff;
+.contact-method.email {
+  background-color: rgba(151, 77, 198, 0.286);
 }
-.contact-method p {
-  color: var(--coral);
-  text-shadow: 2px 5px 10px var(--dark-grey);
-  font-size: 20px;
-  font-weight: 700;
+.contact-method.phone {
+  background-color: rgba(152, 193, 91, 0.322);
+}
+.contact-method img {
+  width: 45px;
   margin: 0;
 }
+.contact-method a {
+  color: var(--black);
+  font-weight: 600;
+  font-size: 0.85rem;
+  margin: auto 10px;
+  transition: color 0.25s linear;
+}
+.contact-method a:hover {
+  color: var(--white);
+}
+
 .contact-form {
-  background: var(--transparent-black);
-  box-shadow: 0 5px 45px var(--transparent-grey);
-  padding: 25px;
   display: flex;
   flex-direction: column;
-  margin: 15px 2px;
-}
-.contact-form h5 {
-  color: var(--coral);
-  text-shadow: 2px 5px 10px var(--dark-grey);
-  font-size: 30px;
-  margin: 20px;
+  justify-content: space-around;
+  align-items: center;
 }
 .contact-form input,
 .contact-form textarea {
-  color: var(--white);
-  margin: 15px 0;
-  box-sizing: border-box;
-  background: var(--black);
-  border-color: var(--coral);
-  border-style: none none solid none;
-  outline: none;
-  transition: 0.5s;
+  box-shadow: 5px 5px 20px var(--trans-grey);
+  color: var(--black);
+  margin: 0.5rem auto;
+  border: 1px solid var(--taupe);
+  border-radius: 20px;
+  padding: 1rem;
+  width: 80%;
+  font-family: var(--poppins);
 }
 .contact-form button {
-  position: relative;
-  border: 1px solid var(--transparent-white);
-  font-size: 17px;
-  padding: 8px 0;
-  margin: 50px 60px 30px 60px;
-  box-shadow: 0 5px 45px var(--transparent-grey);
-  transition: 0.3s;
-  overflow: hidden;
+  border: 2px solid var(--taupe);
+  margin: 2rem auto;
+  width: 10rem;
+  padding: 0.5rem;
+  border-radius: 26px;
+  box-shadow: 5px 5px 20px var(--trans-grey);
+  font-family: var(--poppins);
+  font-size: 1rem;
+  background-color: var(--white);
+  transition: all 0.125s linear;
 }
-.contact-form button:hover{
-font-size: 19px;
+.contact-form button:hover {
+  background-color: var(--taupe);
+  color: var(--white);
 }
-.contact-form button::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 50px;
-  height: 100%;
-  background: var(--transparent-white);
-  transform: skewX(45deg) translateX(-70px);
-  transition: 0.5s;
+.contact-form button:active {
+  border: 1px solid var(--black);
 }
-.contact-form button:hover::before {
-  transform: skewX(45deg) translateX(250px);
+@media screen and (min-width: 768px) {
+  .contact-form {
+    margin: 5rem 3rem;
+  }
 }
-
-@media screen and (min-width: 870px) {
+@media screen and (min-width: 1024px) {
+  #contact-section .sections-heading {
+    text-align: center;
+    margin-bottom: 0;
+  }
+  #contact-section {
+    padding: 1rem 10rem;
+  }
   .contact-methods {
-    display: block;
-    margin: 15px;
+    margin: 0 1rem;
+  }
+  .contact-form {
+    margin: 5rem 8rem;
   }
 }

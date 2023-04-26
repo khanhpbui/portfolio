@@ -6,25 +6,17 @@ import "./projects.css";
 
 const Projects = () => {
   return (
-    <div id="project-section" className="project-page">
-      <h2>Check out my projects:</h2>
+    <div id="projects-section">
+      <div className="sections-heading">
+        <h4>Checkout my</h4>
+        <h2>Projects</h2>
+      </div>
       <div className="projects">
         {projects.map((project) => (
           <div className="project-card" key={project.id}>
             <div className="project-img">
-              <a href={project.deployedLink} target="_blank" rel="noreferrer">
-                <img src={project.image} alt={project.title} />
-              </a>
-            </div>
-            <div className="project-content">
-              <div className="project-desc">
-                <a href={project.deployedLink} target="_blank" rel="noreferrer">
-                  <h4>{project.title}</h4>
-                </a>
-                <p>{project.description}</p>
-              </div>
-            </div>
-            <div className="project-links">
+              <img src={project.image} alt={project.title} />
+              <div className="project-links">
               <a href={project.repositoryLink} target="_blank" rel="noreferrer">
                 <AiOutlineGithub />
               </a>
@@ -32,6 +24,17 @@ const Projects = () => {
                 <VscRocket />
               </a>
             </div>
+            </div>
+            <div className="project-content">
+              <div className="project-desc">
+                <a href={project.deployedLink} target="_blank" rel="noreferrer">
+                  <h3>{project.title}</h3>
+                </a>
+                <p>{project.description}</p>
+              </div>
+            </div>
+            {/* can we do hover???? */}
+     
           </div>
         ))}
       </div>

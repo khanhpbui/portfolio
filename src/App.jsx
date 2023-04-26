@@ -1,18 +1,20 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Nav from "./components/Navigation/Navigation";
+import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
 import Contact from "./components/Contact/Contact";
-import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
-import Resume from "./components/Resume/Resume";
+import Skills from "./components/Skills/Skills";
 import "./app.css";
 function App() {
   return (
     <BrowserRouter>
       <div>
-        <Header />
+        <Nav />
+        <Home />
         <About />
-        <Resume />
+        <Skills />
         <Projects />
         <Contact />
         <Footer className="footer" />
@@ -22,11 +24,3 @@ function App() {
 }
 
 export default App;
-{
-  /* <Routes>
-            <Route path="/" element={<About />} />
-            <Route path="/projects" element={<Projects />} />
-            <Route path="/contact" element={<Contact />} />
-            <Route path="/resume" element={<Resume />} />
-          </Routes> */
-}

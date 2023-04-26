@@ -1,15 +1,38 @@
 import React, { useState } from "react";
-import { CgMenu } from "react-icons/cg";
-import { MdClose } from "react-icons/md";
-// import { FaFileDownload } from "react-icons/fa";
+import BurgerMenu from "../Menu/Menu";
 import "./navigation.css";
-
+import logo from "../../assets/img/avatar/logo3.png";
+import { Divide as Hamburger } from "hamburger-react";
 const Navigation = () => {
-  const [toggleNav, setToggleNav] = useState(false);
-
+  const [isOpen, setOpen] = useState(false);
   return (
     <nav className="navbar">
-      <div className="navbar-lg-screen">
+      <div className="navbar-sm-screen">
+        <a href="#home-section" className="logo">
+          <img src={logo} alt="logo" />
+        </a>
+        <div className="burger-btn">
+          <Hamburger
+            toggled={isOpen}
+            toggle={setOpen}
+            size={25}
+            label="Show menu"
+          />
+        </div>
+      </div>
+      {isOpen && (
+        <div className="burger-menu">
+          <BurgerMenu handleToggle={() => setOpen(false)} />
+        </div>
+      )}
+
+        <div className="menu-lg-screen">
+          <BurgerMenu handleToggle={() => setOpen(false)} />
+        </div>
+      
+
+      {/* <div className="navbar-lg-screen">
+        <img src={logo} alt="logo" />
         <ul className="navbar-lg-screen-links">
           <li>
             <a href="#about-section">About</a>
@@ -29,48 +52,8 @@ const Navigation = () => {
         </ul>
       </div>
 
-      <div className="navbar-sm-screen">
-        <CgMenu
-          className="navbar-sm-screen-icon"
-          onClick={() => setToggleNav(true)}
-        />
-
-        {toggleNav && (
-          <div className="navbar-sm-screen-overlay">
-            <MdClose
-              className="navbar-sm-screen-icon-close"
-              onClick={() => setToggleNav(false)}
-            />
-            <ul className="navbar-sm-screen-links">
-              <li>
-                <a href="#about-section" onClick={() => setToggleNav(false)}>
-                  About
-                </a>
-              </li>
-              <li>
-                <a href="#skill-section" onClick={() => setToggleNav(false)}>
-                  Skills
-                </a>
-              </li>
-              <li>
-                <a href="#resume" onClick={() => setToggleNav(false)}>
-                  Resume
-                </a>
-              </li>
-              <li>
-                <a href="#project-section" onClick={() => setToggleNav(false)}>
-                  Projects
-                </a>
-              </li>
-              <li>
-                <a href="#contact-section" onClick={() => setToggleNav(false)}>
-                  Contact
-                </a>
-              </li>
-            </ul>
-          </div>
-        )}
-      </div>
+      
+          */}
     </nav>
   );
 };
