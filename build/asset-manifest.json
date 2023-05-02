@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.cb30ed6b.css",
+    "main.css": "/portfolio/static/css/main.2feffab6.css",
     "main.js": "/portfolio/static/js/main.7e7524b8.js",
     "static/media/give-manna.png": "/portfolio/static/media/give-manna.b7a12159abce3e6ac058.png",
     "static/media/kb.png": "/portfolio/static/media/kb.8b818f08cf1896915c95.png",
@@ -28,11 +28,11 @@
     "static/media/phone.png": "/portfolio/static/media/phone.b2f63e9cdf89263eb448.png",
     "static/media/github.png": "/portfolio/static/media/github.ee3cf7723b6377570285.png",
     "index.html": "/portfolio/index.html",
-    "main.cb30ed6b.css.map": "/portfolio/static/css/main.cb30ed6b.css.map",
+    "main.2feffab6.css.map": "/portfolio/static/css/main.2feffab6.css.map",
     "main.7e7524b8.js.map": "/portfolio/static/js/main.7e7524b8.js.map"
   },
   "entrypoints": [
-    "static/css/main.cb30ed6b.css",
+    "static/css/main.2feffab6.css",
     "static/js/main.7e7524b8.js"
   ]
 }
