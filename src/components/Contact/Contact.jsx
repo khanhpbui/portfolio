@@ -69,7 +69,7 @@ const Contact = () => {
           rows="6"
           placeholder="Enter Your Message"
         ></textarea>
-
+        <button type="submit">Send</button>
       </form>
     </div>
   );
