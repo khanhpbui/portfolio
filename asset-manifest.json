@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.2feffab6.css",
-    "main.js": "/portfolio/static/js/main.30781bd9.js",
+    "main.js": "/portfolio/static/js/main.e7ee6796.js",
     "static/media/give-manna.png": "/portfolio/static/media/give-manna.b7a12159abce3e6ac058.png",
     "static/media/kb.png": "/portfolio/static/media/kb.8b818f08cf1896915c95.png",
     "static/media/quiz.png": "/portfolio/static/media/quiz.fc5be14613bb3f283e17.png",
@@ -9,7 +9,7 @@
     "static/media/social-network-api.png": "/portfolio/static/media/social-network-api.c78a19adddb8cc1f9e8d.png",
     "static/media/book.png": "/portfolio/static/media/book.b15cf180359e9c3d11c8.png",
     "static/media/weather.png": "/portfolio/static/media/weather.82157fa212a6cca08111.png",
-    "static/media/khanh-bui-resume.pdf": "/portfolio/static/media/khanh-bui-resume.0ab431199e30434187bb.pdf",
+    "static/media/khanh-bui-resume.pdf": "/portfolio/static/media/khanh-bui-resume.43a3ac1f9003b437e8dc.pdf",
     "static/media/portfolio.png": "/portfolio/static/media/portfolio.6a683015e9ce7be91bc3.png",
     "static/media/kb1.png": "/portfolio/static/media/kb1.e048c0623ff586193134.png",
     "static/media/team-profile.png": "/portfolio/static/media/team-profile.f0b3d1c0c1dc7e996a15.png",
@@ -29,10 +29,10 @@
     "static/media/github.png": "/portfolio/static/media/github.ee3cf7723b6377570285.png",
     "index.html": "/portfolio/index.html",
     "main.2feffab6.css.map": "/portfolio/static/css/main.2feffab6.css.map",
-    "main.30781bd9.js.map": "/portfolio/static/js/main.30781bd9.js.map"
+    "main.e7ee6796.js.map": "/portfolio/static/js/main.e7ee6796.js.map"
   },
   "entrypoints": [
     "static/css/main.2feffab6.css",
-    "static/js/main.30781bd9.js"
+    "static/js/main.e7ee6796.js"
   ]
 }
