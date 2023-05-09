@@ -13,6 +13,7 @@ import node from "../../assets/img/techLogo/node.png";
 import github from "../../assets/img/techLogo/github.png";
 import npm from "../../assets/img/techLogo/npm.png";
 import graphql from "../../assets/img/techLogo/graphql.png";
+import ts from "../../assets/img/techLogo/ts.png";
 
 const techLogo = [
   {
@@ -32,65 +33,70 @@ const techLogo = [
   },
   {
     id: 4,
+    image: ts,
+    techName: "TypeScript",
+  },
+  {
+    id: 5,
     image: api,
     techName: "RESTful APIs",
   },
   {
-    id: 5,
+    id: 6,
     image: jquery,
     techName: "jQuery",
   },
   {
-    id: 6,
+    id: 7,
     image: bootstrap,
     techName: "Bootstrap",
   },
   {
-    id: 7,
+    id: 8,
     image: tailwind,
     techName: "Tailwind",
   },
   {
-    id: 8,
+    id: 9,
     image: react,
     techName: "React",
   },
   {
-    id: 9,
+    id: 10,
     image: node,
     techName: "Node.js",
   },
 
   {
-    id: 10,
+    id: 11,
     image: mysql,
     techName: "MySQL",
   },
   {
-    id: 11,
+    id: 12,
     image: mongodb,
     techName: "MongoDB",
   },
 
   {
-    id: 12,
+    id: 13,
     image: jest,
     techName: "Jest",
   },
 
   {
-    id: 13,
+    id: 14,
     image: graphql,
     techName: "GraphQL",
   },
 
   {
-    id: 14,
+    id: 15,
     image: github,
     techName: "Git",
   },
   {
-    id: 15,
+    id: 16,
     image: npm,
     techName: "NPM",
   },
