@@ -14,6 +14,7 @@ import github from "../../assets/img/techLogo/github.png";
 import npm from "../../assets/img/techLogo/npm.png";
 import graphql from "../../assets/img/techLogo/graphql.png";
 import ts from "../../assets/img/techLogo/ts.png";
+import amplify from "../../assets/img/techLogo/amplify.png";
 
 const techLogo = [
   {
@@ -89,14 +90,19 @@ const techLogo = [
     image: graphql,
     techName: "GraphQL",
   },
-
   {
     id: 15,
+    image: amplify,
+    techName: "AWS Amplify",
+  },
+
+  {
+    id: 16,
     image: github,
     techName: "Git",
   },
   {
-    id: 16,
+    id: 17,
     image: npm,
     techName: "NPM",
   },

@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.2feffab6.css",
-    "main.js": "/portfolio/static/js/main.e7ee6796.js",
+    "main.js": "/portfolio/static/js/main.11026a73.js",
     "static/media/give-manna.png": "/portfolio/static/media/give-manna.b7a12159abce3e6ac058.png",
     "static/media/kb.png": "/portfolio/static/media/kb.8b818f08cf1896915c95.png",
     "static/media/quiz.png": "/portfolio/static/media/quiz.fc5be14613bb3f283e17.png",
@@ -20,6 +20,7 @@
     "static/media/email.png": "/portfolio/static/media/email.bfa5f33f863f5ed95218.png",
     "static/media/api2.png": "/portfolio/static/media/api2.deaf80810fa42381dd31.png",
     "static/media/graphql.png": "/portfolio/static/media/graphql.5ac34a15b05569eec3f3.png",
+    "static/media/amplify.png": "/portfolio/static/media/amplify.f62b135f24f7b75bb975.png",
     "static/media/bootstrap.png": "/portfolio/static/media/bootstrap.ff4ba441ec3324145fde.png",
     "static/media/mysql.png": "/portfolio/static/media/mysql.400ae67578ab7ff5470c.png",
     "static/media/jquery.png": "/portfolio/static/media/jquery.c047b6e2b5568fc624ec.png",
@@ -29,10 +30,10 @@
     "static/media/github.png": "/portfolio/static/media/github.ee3cf7723b6377570285.png",
     "index.html": "/portfolio/index.html",
     "main.2feffab6.css.map": "/portfolio/static/css/main.2feffab6.css.map",
-    "main.e7ee6796.js.map": "/portfolio/static/js/main.e7ee6796.js.map"
+    "main.11026a73.js.map": "/portfolio/static/js/main.11026a73.js.map"
   },
   "entrypoints": [
     "static/css/main.2feffab6.css",
-    "static/js/main.e7ee6796.js"
+    "static/js/main.11026a73.js"
   ]
 }
