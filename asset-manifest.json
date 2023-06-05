@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.2feffab6.css",
-    "main.js": "/portfolio/static/js/main.11026a73.js",
+    "main.js": "/portfolio/static/js/main.e1337022.js",
     "static/media/give-manna.png": "/portfolio/static/media/give-manna.b7a12159abce3e6ac058.png",
     "static/media/kb.png": "/portfolio/static/media/kb.8b818f08cf1896915c95.png",
     "static/media/quiz.png": "/portfolio/static/media/quiz.fc5be14613bb3f283e17.png",
@@ -14,8 +14,8 @@
     "static/media/kb1.png": "/portfolio/static/media/kb1.e048c0623ff586193134.png",
     "static/media/team-profile.png": "/portfolio/static/media/team-profile.f0b3d1c0c1dc7e996a15.png",
     "static/media/pdf.png": "/portfolio/static/media/pdf.3e3652392fc20ad700f9.png",
-    "static/media/logo3.png": "/portfolio/static/media/logo3.2878c191169b961fde8c.png",
     "static/media/react.png": "/portfolio/static/media/react.20afd49aa5c9dcfb5cdf.png",
+    "static/media/logo3.png": "/portfolio/static/media/logo3.c712b8b27a70ac7b02da.png",
     "static/media/mongodb.png": "/portfolio/static/media/mongodb.b8c08730d530013deb5b.png",
     "static/media/email.png": "/portfolio/static/media/email.bfa5f33f863f5ed95218.png",
     "static/media/api2.png": "/portfolio/static/media/api2.deaf80810fa42381dd31.png",
@@ -30,10 +30,10 @@
     "static/media/github.png": "/portfolio/static/media/github.ee3cf7723b6377570285.png",
     "index.html": "/portfolio/index.html",
     "main.2feffab6.css.map": "/portfolio/static/css/main.2feffab6.css.map",
-    "main.11026a73.js.map": "/portfolio/static/js/main.11026a73.js.map"
+    "main.e1337022.js.map": "/portfolio/static/js/main.e1337022.js.map"
   },
   "entrypoints": [
     "static/css/main.2feffab6.css",
-    "static/js/main.11026a73.js"
+    "static/js/main.e1337022.js"
   ]
 }
