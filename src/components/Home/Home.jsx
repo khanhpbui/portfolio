@@ -10,7 +10,7 @@ const Home = () => {
     <div id="home-section">
       <div className="home-content">
         <h4 className="home-cursive">Hello,</h4>
-        <h1>I'm Khanh</h1>
+        <h1>I'm Vi</h1>
         <h5>A Software Engineer</h5>
         <div className="connect-link">
           <a href="#contact-section">
